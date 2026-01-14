@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+     /* width: 90%;
+     margin: 30px auto; */
+}
+body{
+   
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.barr{
+    display: flex;
+    flex-direction: end;
+    align-items: end;
+    width: 100%;
+}
+
+ul li {
+    display: flex;
+  /* float: left; */
+  justify-content: flex-end;
+  align-items: end;
+  margin-left: 20px;
+  /* width: 90%; */
+}
+
+ul li a {
+  display: block;
+  color: white;
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+.home{
+    /* margin: 100px 200px; */
+    align-items: center;
+    justify-content: center;
+    /* padding: 80px; */
+    width: 90%;
+    margin: 150px 400px 150px 650px;
+
+}
+.Admissionn{
+    width: 90%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+.sec1{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    /* margin: 20px auto; */
+}
+.sec1 h1{
+    font-size: 40px;
+    color: #111111;
+}
+.sec1 span{
+    color: green;
+}
+.imagee{
+    width: 80%;
+    margin: 20px auto;
+}
+.reck{
+    width: 450px;
+    padding: 40px;
+    /* width: 50%; */
+}
+.sec2{
+    width: 80%;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+    margin: 20px auto;
+}
+.sec2 p{
+    width: 30rem;
+    line-height: 25px;
+}
+.sec2 h3{
+    padding: 20px;
+
+}
+.sec2 a{
+    color: red;
+}
+.reck-statement{
+    padding: 60px;
+}
