@@ -5,10 +5,10 @@
 }
 .container{
      /* /* width: 90%; */
-     margin: 30px auto;
+     margin: 30px auto;     
 }
 
-ul {
+.lll {
   list-style-type: none;
   padding: 0;
   overflow: hidden;
@@ -16,15 +16,10 @@ ul {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.barr{
-    display: flex;
-    flex-direction: end;
-    align-items: end;
-    width: 100%;
+  position: static;
 }
 
-ul li {
+.list1 {
     display: flex;
   /* float: left; */
   justify-content: flex-end;
@@ -194,6 +189,7 @@ ul li a:hover {
     justify-content: center;
     align-content: center;
     margin: 10px auto;
+    background-color: rgb(252, 252, 252);
 }
 .sign{
     padding: 10px;
@@ -203,6 +199,7 @@ ul li a:hover {
     color: green;
     font-weight: bold;
     margin-left: 15px;
+    padding: 30px;
 }
 .sec5 p{
     width: 45rem;
@@ -210,4 +207,91 @@ ul li a:hover {
     align-content: center;
     margin: 20px auto;
     align-items: center;
+}
+.national{
+    width: 30%;
+    border: 2px solid grey;
+    padding: 20px;
+    border-radius: 20px;
+}
+.national ul{
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.national h4{
+    color: red;
+}
+.national p{
+    width: 18rem;
+}
+.program{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.sec6{
+    width: 80%;
+    display: block;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.sec6 h3{
+    color: green;
+
+}
+.sec6 p{
+    color: red;
+    margin-bottom: 30px;
+}
+.apply{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    margin-left: 600px;
+    margin-bottom: 5px;
+}
+.apply a{
+    color: white;
+}
+.foot h3{
+    width: 27rem;
+    color: white;
+    
+}
+.foot p{
+    width: 18rem;
+    color: rgb(139, 141, 148);
+}
+.foot1 p{
+    width: 18rem;
+    color: rgb(139, 141, 148);
+}
+.foot1 h6{
+    color: white;
+}
+footer{
+background-color: rgb(27, 29, 33);
+}
+.for{
+    
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+    
+}
+.foot{
+    margin-left: 50px;
+}
+.foot2{
+    color: white;
+    margin-left: 100px;
+    padding: 5px;
+}
+.llogo{
+    width: 55px;
+    padding: 5px;
 }
