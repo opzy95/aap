@@ -305,10 +305,10 @@ background-color: rgb(27, 29, 33);
     width: 120px;
     height: 90px;
 }
-@media screen and (max-width :800px){
-    .container{
+@media screen and (max-width :1030px){
+    .containerr{
         width: 99%;
-        border: 5px solid red;
+        /* border: 5px solid red; */
     }
     nav{
         width: 100%;
@@ -334,7 +334,8 @@ background-color: rgb(27, 29, 33);
         font-size: larger;
     }
     .sec3{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
 
     }
     .sec4{
@@ -347,6 +348,63 @@ background-color: rgb(27, 29, 33);
     .tabless1{
         gap: 150px;
         padding: 1px;
+    }
+    .sign{
+        margin-left: 30px;
+    }
+    .sec5{
+        width: 95%;
+    }
+    .national{
+        width: 45%;
+    }
+    .program{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sec5 p{
+        font-size: 21px;
+        justify-content: center;
+    }
+    .sec6{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .sec6 p{
+        font-size: 20px;
+    }
+    .apply{
+        margin-left: 300px;
+    }
+    .for{
+        display: block;
+    }
+    .foot h3{
+        width: 40rem;
+        margin-left: 10px;
+    }
+    .foot p{
+        width: 50rem;
+    }
+    .foot{
+        margin-left: 5px;
+    }
+    .foot1 p{
+        width: 40rem;
+    }
+    .lll{
+        width: 99%;
+        display: flex;
+        justify-content: center;
+    }
+    .barr{
+        width: 100%;
+    }
+    .sub-sec3{
+        width: 250px;
+    }
+    .llogo{
+        width: 48px;
     }
     
 }
