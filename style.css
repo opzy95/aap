@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 .container{
-     /* /* width: 90%; */
-     margin: 30px auto;     
+      width: 90%; 
+     margin: 10px auto;     
 }
+nav{
+    position: sticky;
+    top: 0;
+}
+
 
 .lll {
   list-style-type: none;
@@ -16,7 +21,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  position: static;
+  position: sticky;
+  top: 0;
 }
 
 .list1 {
