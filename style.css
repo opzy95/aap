@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.containerr{
       width: 100%; 
      margin: 10px auto;     
 }
@@ -30,19 +30,19 @@ nav{
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-  width: 250px;
+  width: 100%;
   height: 500px;
   position: absolute;
-  left: 510px;
+  left: 0;
   justify-content: center;
   bottom: 100px;
-  display: block;
-  top: 10px;
+  display: none;
+  top: 0;
 }
 .fa-bars{
     font-size: 50px;
-    position: relative;
-    left: 500px;
+    /* position: relative; */
+    /* left: 580px; */
 }
 
 .list1 {
@@ -228,7 +228,7 @@ ul li a:hover {
     padding: 30px;
 }
 .sec5 p{
-    width: 45rem;
+    width: 40rem;
     justify-content: center;
     align-content: center;
     margin: 20px auto;
@@ -333,12 +333,15 @@ background-color: rgb(27, 29, 33);
     margin: 0px auto;
 
 }
+.mobile{
+    display: none;
+}
 
 @media screen and (max-width :1025px){
     .containerr{
         width: 100%;
         margin: 5px auto;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         /* border: 5px solid red; */
     }
     nav{
@@ -454,7 +457,7 @@ background-color: rgb(27, 29, 33);
 @media screen and (max-width :450px){
     .containerr{
         width: 100%;
-        border: 5px solid blue;
+        /* border: 5px solid blue; */
         /* margin: auto 50px; */
 
 
@@ -462,9 +465,7 @@ background-color: rgb(27, 29, 33);
     .desktop{
         display: none;
     }
-    .mobile{
-        display: none;
-    }
+
     .reck{
         width: 300px;
     }
@@ -491,7 +492,8 @@ background-color: rgb(27, 29, 33);
         gap: 13px;
     }
     .sec5 p{
-        width: 20rem;
+        width: 18rem;
+        font-size: 16px;
     }
     .national{
         width: 290px;
@@ -517,8 +519,23 @@ background-color: rgb(27, 29, 33);
         margin-left: 50px;
     }
     .mobile{
+        display: flex;
+        justify-content: space-between;
+    }
+    .aaa{
+        /* display: none; */
+    }
+    .menu{
+        /* border: 1px solid red; */
+        width: 50%;
+    }
+    .menu:hover .aaa{
         display: block;
     }
+
+    .fa-bars:hover .aaa{
+  display: block;
+}
 
     
 }
