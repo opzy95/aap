@@ -532,10 +532,6 @@ background-color: rgb(27, 29, 33);
     .menu:hover .aaa{
         display: block;
     }
-
-    .fa-bars:hover .aaa{
-  display: block;
+  
 }
 
-    
-}
